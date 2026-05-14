@@ -1,0 +1,66 @@
+body{
+  margin:0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.app-container{
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.card{
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="file"]{
+  margin-bottom: 10px;
+}
+
+button{
+  background-color: aquamarine;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.chat-container{
+  height: 400px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.message{
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.user-message{
+  background-color: #dbeafe;
+  text-align: right;
+}
+
+.ai-message{
+  background-color: #e5e7eb;
+}
+
+.input{
+  display: flex;
+  gap: 10px;
+}
+
+.input input{
+  flex: 1;
+  padding: 10px;
+}
