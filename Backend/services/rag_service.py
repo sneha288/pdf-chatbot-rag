@@ -5,7 +5,7 @@ import os
 
 load_dotenv()
 api_key=os.getenv("GOOGLE_API_KEY")
-print("APIKEY",api_key)
+
 vector_store=None
 
 embeddings=GoogleGenerativeAIEmbeddings(
